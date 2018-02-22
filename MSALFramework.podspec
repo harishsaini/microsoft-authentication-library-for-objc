@@ -10,9 +10,9 @@ Pod:: Spec.new do |spec|
   spec.homepage         = 'https://github.com/harishsaini/microsoft-authentication-library-for-objc'
   spec.source = {
     :git => 'https://github.com/harishsaini/microsoft-authentication-library-for-objc.git',
-    :tag => '0.5.0'
+    :tag => '0.6.0'
   }
   spec.ios.deployment_target = '10.0'
-  spec.source_files = 'MSAL/**/*.{h,c,m,mm,cpp}'  
+  spec.source_files = '**/*.{h,c,m,mm,cpp}'  
   spec.requires_arc = true
 end
