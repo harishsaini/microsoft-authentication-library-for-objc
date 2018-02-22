@@ -12,7 +12,7 @@ Pod:: Spec.new do |spec|
     :git => 'https://github.com/harishsaini/microsoft-authentication-library-for-objc.git',
     :tag => '0.2.0'
   }
-  spec.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '10.0'
   spec.source_files = 'MSAL/*'
   spec.requires_arc = true
 end
