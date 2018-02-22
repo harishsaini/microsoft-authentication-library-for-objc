@@ -1,7 +1,7 @@
 Pod:: Spec.new do |spec|
   spec.platform     = 'ios', '10.0'
   spec.name         = 'MSALFramework'
-  spec.version      = '0.5.0'
+  spec.version      = '0.6.0'
   spec.summary      = 'A Pod for MSAL Framework'
   spec.author = {
     'Harish Saini' => 'bits.harish@gmail.com'
